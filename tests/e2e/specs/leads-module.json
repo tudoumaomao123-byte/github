@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "leads-module",
+    "kind": "interactive",
+    "goal": "Open the funnel and lead board and stay on it after reload",
+    "requirementIndexes": [
+      6,
+      7
+    ],
+    "acceptanceCriteriaIndexes": [
+      3,
+      6
+    ],
+    "steps": [
+      "Open 获客与线索 in the navigation",
+      "Reload the page"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "短视频内容"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "绩效复盘与区域权益调整"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "资质初筛"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "不通过"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "SEELEEP"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "绩效复盘与区域权益调整"
+      }
+    ]
+  }
+}

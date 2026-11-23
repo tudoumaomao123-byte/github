@@ -1,0 +1,20 @@
+{
+  "overview": "A Chinese-language public data dashboard presenting the SEELEEP sleep robot S regional agent recruitment plan and product brochure data.",
+  "features": [
+    "招商总览：KPI 指标卡、合作伙伴分级、四种合作模式与已定决策",
+    "获客与线索：10 步转化漏斗与 7 阶段线索看板",
+    "内容运营：选题评分柱状图、12 条视频排期与内容类型占比、首条视频脚本",
+    "代理商准入评分与 90 天路线图",
+    "产品与技术：五维牵引、专利、应用场景与操作界面示例",
+    "合规规则与待解决问题清单"
+  ],
+  "category": "dashboard",
+  "tags": [
+    "data-dashboard",
+    "sales",
+    "channel-recruitment",
+    "chinese",
+    "analytics"
+  ],
+  "last_updated": "2026-11-23T14:05:14.389Z"
+}

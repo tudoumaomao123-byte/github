@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "content-module",
+    "kind": "interactive",
+    "goal": "Open content operations and see topic scores, the 12-video schedule, type share and script",
+    "requirementIndexes": [
+      8,
+      9,
+      10
+    ],
+    "acceptanceCriteriaIndexes": [
+      2,
+      5
+    ],
+    "steps": [
+      "Open 内容运营 in the navigation"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "养老机构资源如何商业化"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "银发经济背后的高端康养机会"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "什么样的企业适合成为小月智能区域合作伙伴"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "精准切入"
+      }
+    ]
+  }
+}

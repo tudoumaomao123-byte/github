@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "flows": {
+    "agent-module": {
+      "flowId": "agent-module",
+      "specDigest": "593c540e1883d952cf5dc495748278793926a45ce28b54ca4a0f58a2365df1b4",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.981Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "2fb725040ced2f43dd2102415068354f4bfc1efb9752bdd30f235ef9f7908092.json"
+      ],
+      "ranAfter": [
+        "content-module",
+        "leads-module",
+        "overview-module"
+      ],
+      "ranWith": [
+        "content-module",
+        "leads-module",
+        "overview-module"
+      ],
+      "readOnly": true
+    },
+    "compliance-module": {
+      "flowId": "compliance-module",
+      "specDigest": "fc547c70474a48d108cd6811b32505651e4bbc569d17a4478b39a3d09a58fa68",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.987Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "c8401f87b575131a6204435b95faa53a8f7ac4a293ac649c3dc02d4c019cdc16.json"
+      ],
+      "ranAfter": [
+        "agent-module",
+        "content-module",
+        "leads-module",
+        "overview-module",
+        "product-module"
+      ],
+      "ranWith": [
+        "agent-module",
+        "content-module",
+        "leads-module",
+        "overview-module",
+        "product-module"
+      ],
+      "readOnly": true
+    },
+    "content-module": {
+      "flowId": "content-module",
+      "specDigest": "f5bf258de36c10a9088731c287dafb020ee623c36b2f2b4c5de2ae248bdcd8f5",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.980Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "58b2033388292179f79a39e3e2588728b3e6dcf37f1456f801c5af0cdc40255c.json"
+      ],
+      "ranAfter": [
+        "leads-module",
+        "overview-module"
+      ],
+      "ranWith": [
+        "leads-module",
+        "overview-module"
+      ],
+      "readOnly": true
+    },
+    "leads-module": {
+      "flowId": "leads-module",
+      "specDigest": "e9a1ad4c26e6a51a4f52bca71f3e33a3b7153f6294d5493a28fea94b4767bcf6",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.980Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "3afa245be6bd6c67d2a91d89cca59420f962a94d5ff039b487a533cbd5d96076.json"
+      ],
+      "ranAfter": [
+        "overview-module"
+      ],
+      "ranWith": [
+        "overview-module"
+      ],
+      "readOnly": true
+    },
+    "overview-module": {
+      "flowId": "overview-module",
+      "specDigest": "8096ca048b0f4c7593e790c0401653780147317b13eb99d682e34520bf125035",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.980Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "ad49084be2f17766b48da7bdb08253d2693a4d518ad67a32066c20c2cceffca1.json"
+      ],
+      "ranAfter": [],
+      "ranWith": [],
+      "readOnly": true
+    },
+    "product-module": {
+      "flowId": "product-module",
+      "specDigest": "04a0c9074e33a2819a69070066e4d4229e4424c8ba63c6e36a8960bf2f9981f1",
+      "status": "recorded",
+      "recordedAt": "2026-11-23T14:20:47.987Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "b7441a8b02340f6d2a473de42c735cecfce1c48785ab66d7e2fe119b86d40b3d.json"
+      ],
+      "ranAfter": [
+        "agent-module",
+        "content-module",
+        "leads-module",
+        "overview-module"
+      ],
+      "ranWith": [
+        "agent-module",
+        "content-module",
+        "leads-module",
+        "overview-module"
+      ],
+      "readOnly": true
+    }
+  }
+}

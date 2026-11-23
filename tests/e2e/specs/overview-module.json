@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "overview-module",
+    "kind": "interactive",
+    "goal": "Open the recruitment overview from navigation and see KPI cards, partner tiers, cooperation models and decisions",
+    "requirementIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "acceptanceCriteriaIndexes": [
+      0,
+      1,
+      7,
+      8
+    ],
+    "startPath": "/leads",
+    "steps": [
+      "Open 招商总览 in the navigation",
+      "Reload the page"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "合格代理申请数"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "高端养老产业运营商"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "资源推荐型"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "只做一个企业号"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "SEELEEP"
+      },
+      {
+        "afterStep": 0,
+        "assert": "Layout fits the viewport without horizontal page overflow and navigation items show hover or focus feedback"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "SEELEEP"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "合格代理申请数"
+      }
+    ]
+  }
+}

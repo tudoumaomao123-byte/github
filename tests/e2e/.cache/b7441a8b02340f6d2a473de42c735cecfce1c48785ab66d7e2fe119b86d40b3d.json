@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-23T14:20:40.127Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"产品与技术\"",
+        "target": {
+          "role": "link",
+          "name": "产品与技术"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "product-module.e2e.ts::product-module",
+      "targetId": "web",
+      "instructionDigest": "bc738e8840c92d0a51ed65bf85693df51001f3ca8936f35dd43d34cbef4d5987",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I tapped 产品与技术 in the navigation and the app went to /product. The page shows the 产品与技术 heading, followed by the 五维牵引, 专利与著作权, 应用场景 and 操作界面示例 sections.",
+    "startPath": "/",
+    "endPath": "/product",
+    "endAnchors": [
+      {
+        "role": "heading",
+        "name": "产品与技术"
+      },
+      {
+        "text": "五维牵引技术、知识产权、应用场景与操作界面，数据照 PDF 原文展示。"
+      },
+      {
+        "text": "核心技术"
+      },
+      {
+        "name": "以下内容为宣传册宣称，尚未经第三方确认",
+        "text": "待核实"
+      },
+      {
+        "text": "以下为宣传册宣称内容，照原文展示。"
+      },
+      {
+        "role": "heading",
+        "name": "力牵引"
+      },
+      {
+        "text": "资料宣称"
+      },
+      {
+        "text": "气道通畅，呼吸更充分"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "睡眠机器人 S · 区域代理招商总览"
+      },
+      {
+        "text": "汇总招商目标、核心指标、伙伴分级与合作模式，数据照 PDF 原文展示。"
+      },
+      {
+        "text": "招商目标"
+      },
+      {
+        "text": "以短视频为获客主渠道，通过 1 个企业号（不做创始人IP）为睡眠机器人 S（约 ¥398,000）招募区域代理，建立全国区域渠道网络。"
+      },
+      {
+        "role": "listitem",
+        "name": "睡眠机器人 S · 约 ¥398,000"
+      },
+      {
+        "role": "listitem",
+        "name": "招募区域代理"
+      },
+      {
+        "role": "listitem",
+        "name": "1 个企业号，不做创始人IP"
+      },
+      {
+        "text": "产品定价（约）"
+      }
+    ],
+    "endWaitMs": 13360,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

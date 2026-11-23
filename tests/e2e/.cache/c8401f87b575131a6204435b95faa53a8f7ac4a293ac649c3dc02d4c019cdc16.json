@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-23T14:20:47.911Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"合规与待决事项\"",
+        "target": {
+          "role": "link",
+          "name": "合规与待决事项"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "compliance-module.e2e.ts::compliance-module",
+      "targetId": "web",
+      "instructionDigest": "43d2ca47f695e6b6b59fa48e13729492d4c7c08626f3962e0abfc4c88ff22638",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I tapped 合规与待决事项 in the navigation and the app opened /compliance. The page shows the heading 合规与待决事项 with three sections: 合规底线（8条）, 待解决关键问题（10个） and 其他待核实事项.",
+    "startPath": "/",
+    "endPath": "/compliance",
+    "endAnchors": [
+      {
+        "role": "heading",
+        "name": "合规与待决事项"
+      },
+      {
+        "text": "合规底线、待解决关键问题与待核实事项，内容照 PDF 原文展示。"
+      },
+      {
+        "text": "Compliance"
+      },
+      {
+        "role": "heading",
+        "name": "合规底线（8条）"
+      },
+      {
+        "text": "对外宣传、招商与渠道合作须遵守的基本规则。"
+      },
+      {
+        "role": "heading",
+        "name": "医疗/健康效果"
+      },
+      {
+        "text": "未经充分证据及必要的监管审查，不宣称治疗失眠、治疗疾病、保证改善或特定临床效果。"
+      },
+      {
+        "role": "heading",
+        "name": "技术参数"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "睡眠机器人 S · 区域代理招商总览"
+      },
+      {
+        "text": "汇总招商目标、核心指标、伙伴分级与合作模式，数据照 PDF 原文展示。"
+      },
+      {
+        "text": "招商目标"
+      },
+      {
+        "text": "以短视频为获客主渠道，通过 1 个企业号（不做创始人IP）为睡眠机器人 S（约 ¥398,000）招募区域代理，建立全国区域渠道网络。"
+      },
+      {
+        "role": "listitem",
+        "name": "睡眠机器人 S · 约 ¥398,000"
+      },
+      {
+        "role": "listitem",
+        "name": "招募区域代理"
+      },
+      {
+        "role": "listitem",
+        "name": "1 个企业号，不做创始人IP"
+      },
+      {
+        "text": "产品定价（约）"
+      }
+    ],
+    "endWaitMs": 13089,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

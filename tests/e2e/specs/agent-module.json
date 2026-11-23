@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "agent-module",
+    "kind": "interactive",
+    "goal": "Open agent admission scoring and the 90-day roadmap",
+    "requirementIndexes": [
+      11,
+      12
+    ],
+    "acceptanceCriteriaIndexes": [
+      4
+    ],
+    "steps": [
+      "Open 代理商准入评估 in the navigation"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "终端客户资源"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "品牌与合规意识"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "确定招商模型"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "验证终端销售"
+      }
+    ]
+  }
+}

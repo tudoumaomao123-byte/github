@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "compliance-module",
+    "kind": "interactive",
+    "goal": "Open compliance rules and open questions",
+    "requirementIndexes": [
+      15
+    ],
+    "acceptanceCriteriaIndexes": [
+      1
+    ],
+    "steps": [
+      "Open 合规与待决事项 in the navigation"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "医疗/健康效果"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "第一批计划测试哪些区域"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "待核实"
+      }
+    ]
+  }
+}

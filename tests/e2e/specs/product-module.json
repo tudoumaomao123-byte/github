@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "product-module",
+    "kind": "interactive",
+    "goal": "Open product and technology data from the brochure",
+    "requirementIndexes": [
+      13,
+      14
+    ],
+    "acceptanceCriteriaIndexes": [
+      1
+    ],
+    "steps": [
+      "Open 产品与技术 in the navigation"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "力牵引"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "ZL202210332245.9"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "浙大康复医院"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "深度睡眠"
+      }
+    ]
+  }
+}

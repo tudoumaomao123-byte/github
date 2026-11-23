@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-23T14:20:32.228Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"代理商准入评估\"",
+        "target": {
+          "role": "link",
+          "name": "代理商准入评估"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "agent-module.e2e.ts::agent-module",
+      "targetId": "web",
+      "instructionDigest": "0df5f5f365118b44a054f26f7c78cad39996c26d3d02f95157d77cd568339c73",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "Tapped 代理商准入评估 in the navigation. The app is now on /agent, which shows the 代理商准入评估 heading, the scoring table (100 points, 75-point pass threshold, 6 dimensions) and the 90-day roadmap.",
+    "startPath": "/",
+    "endPath": "/agent",
+    "endAnchors": [
+      {
+        "role": "heading",
+        "name": "代理商准入评估"
+      },
+      {
+        "text": "代理准入评分维度与 90 天招商路线图，数据照 PDF 原文展示。"
+      },
+      {
+        "text": "评分满分"
+      },
+      {
+        "text": "分"
+      },
+      {
+        "text": "准入门槛"
+      },
+      {
+        "text": "评分维度"
+      },
+      {
+        "text": "项"
+      },
+      {
+        "text": "路线图阶段"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "睡眠机器人 S · 区域代理招商总览"
+      },
+      {
+        "text": "汇总招商目标、核心指标、伙伴分级与合作模式，数据照 PDF 原文展示。"
+      },
+      {
+        "text": "招商目标"
+      },
+      {
+        "text": "以短视频为获客主渠道，通过 1 个企业号（不做创始人IP）为睡眠机器人 S（约 ¥398,000）招募区域代理，建立全国区域渠道网络。"
+      },
+      {
+        "role": "listitem",
+        "name": "睡眠机器人 S · 约 ¥398,000"
+      },
+      {
+        "role": "listitem",
+        "name": "招募区域代理"
+      },
+      {
+        "role": "listitem",
+        "name": "1 个企业号，不做创始人IP"
+      },
+      {
+        "text": "产品定价（约）"
+      }
+    ],
+    "endWaitMs": 13893,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
